@@ -1,0 +1,16 @@
+server:
+  port: 9091
+
+spring:
+  profiles:
+    active: dev
+  datasource:
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  application:
+    name: RESTAURANT-LISTING
+
+
